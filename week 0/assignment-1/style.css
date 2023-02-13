@@ -1,0 +1,94 @@
+.imageWrapper {
+  max-width: max-content;
+  display: inline-block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
+}
+
+.imageWrapper .imageDescription {
+  display: block;
+}
+
+.logoImg {
+  width: 100px;
+}
+
+.navbar {
+  display: inline-block;
+}
+
+.navbarItem {
+  font-size: 14px;
+  line-height: 5rem;
+  padding: 0 1.5rem;
+  display: inline;
+}
+
+.content .siteHeading {
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  display: block;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  font-weight: bold;
+}
+
+.paragraphHeading {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  font-weight: bold;
+}
+
+.sideNote {
+  display: block;
+  width: 30%;
+  padding-left: 0.5rem;
+  margin-left: 0.5rem;
+  float: right;
+  color: #29627e;
+}
+
+.sideNoteHeading {
+  display: block;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  font-weight: bold;
+}
+
+.sideNoteParagraph {
+  padding: 0.5rem 0;
+}
+
+.sideNoteParagraph .italic {
+  font-style: italic;
+}
+
+.sideNoteParagraph .bold {
+  font-weight: bold;
+}
+
+.sideNoteParagraph,
+.siteStoryParagraph {
+  display: block;
+}
+
+.footer {
+  display: block;
+  margin-top: 1rem;
+  border: #29627e dashed 0.1rem;
+}
+
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+}

@@ -20,6 +20,7 @@ h2 {
   background-color: brown;
   border-radius: 15px;
 }
+
 h3 {
   background-color: white;
 }
@@ -30,6 +31,10 @@ h3 {
   margin: auto;
   object-fit: cover;
   background-color: white;
+  transform: scale(0.8);
+}
+.grid-item img:hover {
+  transform: scale(1);
 }
 p {
   font-family: inherit;

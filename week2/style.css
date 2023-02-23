@@ -38,7 +38,6 @@ p {
   margin-top: 1rem;
 }
 /* Grid using element id #grid-flex */
-/* Styling for tab desktop or big screen */
 #grid-flex {
   display: flex;
   flex-wrap: wrap;
@@ -54,6 +53,8 @@ p {
   border-radius: 15px;
   box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
 }
+/* Styling for tab desktop or big screen */
+
 #grid-flex .grid-item:nth-child(1) {
   flex-basis: 49%;
   background-color: brown;

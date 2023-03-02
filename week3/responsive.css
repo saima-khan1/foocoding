@@ -6757,7 +6757,6 @@ h1 + .article-meta {
   padding-left: 1.25rem;
 }
 
-.brick a.external h3:before,
 .brick a.external span.caption:before {
   content: '';
   font-family: 'RO Icons';
@@ -6768,6 +6767,7 @@ h1 + .article-meta {
   -moz-osx-font-smoothing: grayscale;
   position: absolute;
   left: 0;
+  display: none;
 }
 
 .brick ul {
@@ -18485,9 +18485,9 @@ h1 + .representations {
   padding-left: 0;
 }
 
-.brickRow.spotLight .brick > a.external h3:before {
+/* .brickRow.spotLight .brick > a.external h3:before {
   top: 0.7em;
-}
+} */
 
 .brickRow.spotLight .brick h3 {
   font-size: 1.6018066406rem;
@@ -18495,6 +18495,7 @@ h1 + .representations {
   font-weight: normal;
   margin-top: 0;
   margin-bottom: 0.5rem;
+  padding-left: 0;
 }
 
 .brickRow.spotLight .brick .brick-text p {

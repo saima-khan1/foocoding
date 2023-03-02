@@ -58,14 +58,13 @@
     title="RIJKSOVERHEID.Organisatie"
     content="Ministerie van Algemene Zaken"
   />
-  <!--<meta name="OVERHEID.authority" title="RIJKSOVERHEID.Organisatie" content="Ministerie van Algemene Zaken"/>-->
   <meta
     name="DCTERMS.type"
     title="RIJKSOVERHEID.Informatietype"
     content="webpagina"
   />
 
-  <script
+  <!-- <script
     type="text/javascript"
     async=""
     defer=""
@@ -92,7 +91,7 @@
       search_keyword: '',
       search_count: '',
     });
-  </script>
+  </script> -->
   <link
     rel="shortcut icon"
     href="/binaries/content/assets/rijksoverheid/iconen/favicon.ico"
@@ -109,27 +108,41 @@
   />
   <link rel="stylesheet" href="responsive.css" type="text/css" media="all" />
   <link rel="preload" href="responsive.css" as="style" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
 
   <link
     rel="preload"
     href="/binaries/content/gallery/rijksoverheid/channel-afbeeldingen/logos/beeldmerk-rijksoverheid-desktop.svg"
     as="image"
   />
+
   <link
     rel="preload"
     href="/webfiles/1677439326190/behaviour/core.js"
     as="script"
   />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
 
   <script
+    src="https://kit.fontawesome.com/a076d05399.js"
+    crossorigin="anonymous"
+  ></script>
+
+  <!-- <script
     type="text/javascript"
     charset="utf-8"
     async=""
     data-requirecontext="_"
     data-requiremodule="https://onderzoek.platformrijksoverheid.nl/CnTMVC/pub/108108108pre/cnt108108108pre.js"
     src="https://onderzoek.platformrijksoverheid.nl/CnTMVC/pub/108108108pre/cnt108108108pre.js"
-  ></script>
-  <script
+  ></script> -->
+  <!-- <script
     type="text/javascript"
     charset="utf-8"
     async=""
@@ -149,7 +162,7 @@
     data-requirecontext="_"
     data-requiremodule="img-helpers"
     src="/webfiles/1677439326190/behaviour/shared-ro/img-helpers.js"
-  ></script>
+  ></script> -->
 </head>
 <body
   id="government"
@@ -166,7 +179,7 @@
   data-cookieurltext="cookies"
   data-stats="publisher:-;subject:-;type:homepage;uuid:fb90d6cd-af1f-4e99-810f-58f024dea98c;pagetype:homepage;ftgtype:ontvanger"
 >
-  <script nonce="">
+  <!-- <script nonce="">
     (function (window, document, dataLayerName, id) {
       (window[dataLayerName] = window[dataLayerName] || []),
         window[dataLayerName].push({
@@ -216,15 +229,15 @@
           })(i[c]);
       })(window, 'ppms', ['tm', 'cm']);
     })(window, document, 'dataLayer', 'bf9c05f0-c13f-4e22-80c7-e603d39fc616');
-  </script>
-  <noscript
+  </script> -->
+  <!-- <noscript
     ><iframe
       src="//statistiek.rijksoverheid.nl/containers/bf9c05f0-c13f-4e22-80c7-e603d39fc616/noscript.html"
       height="0"
       width="0"
       style="display: none; visibility: hidden"
     ></iframe
-  ></noscript>
+  ></noscript> -->
   <div id="mainwrapper">
     <header>
       <div class="skiplinks">
@@ -253,7 +266,7 @@
           <span class="assistive" id="breadCrumbNavLabel"
             >U bevindt zich hier:</span
           >
-          <a href="/" aria-current="page">Home</a>
+          <a href="#" aria-current="page">Home</a>
         </nav>
         <nav
           class="mainNav"
@@ -269,19 +282,19 @@
           </button>
           <ul id="topMenu">
             <li>
-              <a href="/actueel">Actueel</a>
+              <a href="#">Actueel</a>
             </li>
             <li>
-              <a href="/onderwerpen">Onderwerpen</a>
+              <a href="#">Onderwerpen</a>
             </li>
             <li>
-              <a href="/ministeries">Ministeries</a>
+              <a href="#">Ministeries</a>
             </li>
             <li>
-              <a href="/regering">Regering</a>
+              <a href="#">Regering</a>
             </li>
             <li>
-              <a href="/documenten">Documenten</a>
+              <a href="#">Documenten</a>
             </li>
           </ul>
         </nav>
@@ -308,15 +321,7 @@
               title="Typ hier uw zoektermen"
               placeholder="Zoeken"
             />
-            <button
-              id="search-submit"
-              class="searchSubmit"
-              name="search-submit"
-              type="submit"
-              title="Start zoeken"
-            >
-              Start zoeken
-            </button>
+            <button class="btn"><i class="fa fa-search"></i></button>
           </form>
         </div>
       </div>
@@ -332,39 +337,49 @@
             <h2>Veel bekeken</h2>
             <ul>
               <li>
-                <a
-                  href="https://www.rijksoverheid.nl/onderwerpen/waardering-onroerende-zaken-woz/vraag-en-antwoord/woz-waarde-controleren"
-                  class=" "
-                >
-                  WOZ-waarde controleren</a
-                >
+                <i class="fa fa-chevron-right">
+                  <a
+                    href="#"
+                    class=" "
+                  >
+                    WOZ-waarde controleren</a
+                  >
+                </i>
               </li>
               <li>
-                <a
-                  href="https://www.rijksoverheid.nl/onderwerpen/koopkracht/plannen-kabinet-met-prijsplafond-voor-gas-en-elektriciteit"
-                  class=" "
-                >
-                  Prijsplafond voor energie</a
-                >
+                <i class="fa fa-chevron-right">
+                  <a
+                    href="#"
+                    class=" "
+                  >
+                    Prijsplafond voor energie</a
+                  >
+                </i>
               </li>
               <li>
-                <a href="/onderwerpen/coronavirus-covid-19">
-                  Coronavirus COVID-19</a
-                >
+                <i class="fa fa-chevron-right">
+                  <a href="#">
+                    Coronavirus COVID-19</a
+                  >
+                </i>
               </li>
               <li>
-                <a
-                  href="/onderwerpen/leven-lang-ontwikkelen/leven-lang-ontwikkelen-financiele-regelingen/stap-budget"
-                >
-                  STAP-budget voor scholing en ontwikkeling</a
-                >
+                <i class="fa fa-chevron-right">
+                  <a
+                    href="#"
+                  >
+                    STAP-budget voor scholing en ontwikkeling</a
+                  >
+                </i>
               </li>
               <li>
-                <a
-                  href="/onderwerpen/schoolvakanties/overzicht-schoolvakanties-per-schooljaar/overzicht-schoolvakanties-2022-2023"
-                >
-                  Overzicht schoolvakanties 2022-2023</a
-                >
+                <i class="fa fa-chevron-right">
+                  <a
+                    href="#"
+                  >
+                    Overzicht schoolvakanties 2022-2023</a
+                  >
+                </i>
               </li>
             </ul>
           </div>
@@ -375,10 +390,10 @@
           data-widescreen="true"
           data-img="/binaries/large/content/gallery/rijksoverheid/attentie-afbeeldingen/home/2023/hero-image---homepage---woz.jpg"
           style="
-            background-image: url('/binaries/widescreen/content/gallery/rijksoverheid/attentie-afbeeldingen/home/2023/hero-image---homepage---woz.jpg');
+            background-image: url('https://www.rijksoverheid.nl/binaries/widescreen/content/gallery/rijksoverheid/attentie-afbeeldingen/home/2023/hero-image---homepage---woz.jpg');
           "
         >
-          <figure class="img-container">
+          <!-- <figure class="img-container">
             <picture>
               <source
                 srcset="
@@ -404,7 +419,7 @@
               />
             </picture>
             <footer></footer>
-          </figure>
+          </figure> -->
         </div>
       </div>
       <div class="editorial-navigation grey">
@@ -415,7 +430,7 @@
               <ul>
                 <li class="navItem">
                   <a
-                    href="/onderwerpen/themas/belastingen-uitkeringen-en-toeslagen"
+                    href="#"
                   >
                     <div class="editorial-navigation-content">
                       <h3>Belastingen, uitkeringen en toeslagen</h3>
@@ -427,7 +442,7 @@
                   </a>
                 </li>
                 <li class="navItem">
-                  <a href="/onderwerpen/themas/bouwen-en-wonen">
+                  <a href="#">
                     <div class="editorial-navigation-content">
                       <h3>Bouwen en wonen</h3>
                       <p>
@@ -438,7 +453,7 @@
                   </a>
                 </li>
                 <li class="navItem">
-                  <a href="/onderwerpen/themas/economie">
+                  <a href="#">
                     <div class="editorial-navigation-content">
                       <h3>Economie</h3>
                       <p>
@@ -449,7 +464,7 @@
                   </a>
                 </li>
                 <li class="navItem">
-                  <a href="/onderwerpen/themas/familie-zorg-en-gezondheid">
+                  <a href="#">
                     <div class="editorial-navigation-content">
                       <h3>Familie, zorg en gezondheid</h3>
                       <p>
@@ -460,7 +475,7 @@
                   </a>
                 </li>
                 <li class="navItem">
-                  <a href="/onderwerpen/themas/internationale-samenwerking">
+                  <a href="#">
                     <div class="editorial-navigation-content">
                       <h3>Internationale samenwerking</h3>
                       <p>Oorlog in Oekraïne, Europese Unie, Mensenrechten...</p>
@@ -468,7 +483,7 @@
                   </a>
                 </li>
                 <li class="navItem">
-                  <a href="/onderwerpen/themas/klimaat-milieu-en-natuur">
+                  <a href="#">
                     <div class="editorial-navigation-content">
                       <h3>Klimaat, milieu en natuur</h3>
                       <p>
@@ -479,7 +494,7 @@
                   </a>
                 </li>
                 <li class="navItem">
-                  <a href="/onderwerpen/themas/migratie-en-reizen">
+                  <a href="#">
                     <div class="editorial-navigation-content">
                       <h3>Migratie en reizen</h3>
                       <p>
@@ -491,7 +506,7 @@
                   </a>
                 </li>
                 <li class="navItem">
-                  <a href="/onderwerpen/themas/onderwijs">
+                  <a href="#">
                     <div class="editorial-navigation-content">
                       <h3>Onderwijs</h3>
                       <p>
@@ -502,7 +517,7 @@
                   </a>
                 </li>
                 <li class="navItem">
-                  <a href="/onderwerpen/themas/overheid-en-democratie">
+                  <a href="#">
                     <div class="editorial-navigation-content">
                       <h3>Overheid en democratie</h3>
                       <p>
@@ -512,7 +527,7 @@
                   </a>
                 </li>
                 <li class="navItem">
-                  <a href="/onderwerpen/themas/recht-veiligheid-en-defensie">
+                  <a href="#">
                     <div class="editorial-navigation-content">
                       <h3>Recht, veiligheid en defensie</h3>
                       <p>
@@ -523,7 +538,7 @@
                   </a>
                 </li>
                 <li class="navItem">
-                  <a href="/onderwerpen/themas/verkeer-en-vervoer">
+                  <a href="#">
                     <div class="editorial-navigation-content">
                       <h3>Verkeer en vervoer</h3>
                       <p>
@@ -534,7 +549,7 @@
                   </a>
                 </li>
                 <li class="navItem">
-                  <a href="/onderwerpen/themas/werk">
+                  <a href="#">
                     <div class="editorial-navigation-content">
                       <h3>Werk</h3>
                       <p>
@@ -556,7 +571,7 @@
           <section class="brickRow spotLight">
             <h2>Direct naar</h2>
             <div class="brick">
-              <a href="/onderwerpen/verkiezingen" class="">
+              <a href="#" class="">
                 <h3>Verkiezingen 15 maart 2023</h3>
                 <div class="brick-image">
                   <figure class="img-container">
@@ -573,7 +588,7 @@
             </div>
             <div class="brick">
               <a
-                href="/onderwerpen/ontslag/vraag-en-antwoord/hoe-hoog-is-de-transitievergoeding-als-ik-word-ontslagen"
+                href="#"
                 class="faq"
               >
                 <h3>Transitievergoeding bij ontslag</h3>
@@ -626,9 +641,11 @@
             <h2>Nieuws</h2>
 
             <div class="brick">
+              <i class="fa fa-chevron-right">
               <a
-                href="/actueel/nieuws/2023/02/27/wet-betaalbare-huur-maakt-eind-aan-te-hoge-huren"
+                href="#"
               >
+              </i>
                 <h3>Wet Betaalbare huur maakt eind aan te hoge huren</h3>
                 <div class="brick-text">
                   <p>
@@ -644,7 +661,7 @@
 
             <div class="brick">
               <a
-                href="/actueel/nieuws/2023/02/27/internetconsultatie-aanpassing-vastgoedaandelentransacties-van-start"
+                href="#"
               >
                 <h3>
                   Internetconsultatie aanpassing vastgoedaandelentransacties van
@@ -665,7 +682,7 @@
 
             <div class="brick">
               <a
-                href="/actueel/nieuws/2023/02/27/ruim-%E2%82%AC1-miljard-voor-uitvoering-klimaatbeleid-gemeenten-en-provincies"
+                href="#"
               >
                 <h3>
                   Ruim €1 miljard voor uitvoering klimaatbeleid gemeenten en
@@ -686,7 +703,7 @@
 
             <div class="brick">
               <a
-                href="/actueel/nieuws/2023/02/27/herziening-europees-octrooisysteem-met-een-aanvraag-octrooi-in-groot-deel-europa"
+                href="#"
               >
                 <h3>
                   Herziening Europees octrooisysteem: met één aanvraag octrooi
@@ -707,7 +724,7 @@
 
             <div class="brick">
               <a
-                href="/actueel/nieuws/2023/02/27/voortgang-maatwerkafspraken-verduurzaming-industrie"
+                href="#"
               >
                 <h3>Voortgang maatwerkafspraken verduurzaming industrie</h3>
                 <div class="brick-text">
@@ -725,7 +742,7 @@
 
             <div class="brick">
               <a
-                href="/actueel/nieuws/2023/02/27/de-asielinstroom-van-week-8-bedroeg-ongeveer-700"
+                href="#"
               >
                 <h3>De asielinstroom van week 8 bedroeg ongeveer 700</h3>
                 <div class="brick-text">
@@ -741,12 +758,12 @@
               </a>
             </div>
 
-            <a class="more" href="/actueel/nieuws">Meer nieuws</a>
+            <a class="more" href="#">Meer nieuws</a>
           </section>
         </div>
         <aside>
           <div class="brick banner">
-            <a href="/contact/informatie-rijksoverheid">
+            <a href="#">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -782,7 +799,7 @@
           </div>
           <div class="brick banner">
             <a
-              href="https://www.rijksoverheid.nl/actueel/nieuwsbrieven/regeringsnieuws"
+              href="#"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -842,25 +859,39 @@
           <h2>Service</h2>
           <ul>
             <li>
-              <a href="/contact">Contact</a>
+              <i class="fa fa-chevron-right">
+                <a href="#">Contact</a>
+              </i>
             </li>
             <li>
-              <a href="/abonneren">Abonneren</a>
+              <i class="fa fa-chevron-right">
+                <a href="#">Abonneren</a>
+              </i>
             </li>
             <li>
-              <a href="/rss">RSS</a>
+              <i class="fa fa-chevron-right">
+                <a href="#">RSS</a>
+              </i>
             </li>
             <li>
-              <a href="/vacatures">Vacatures</a>
+              <i class="fa fa-chevron-right">
+                <a href="#">Vacatures</a>
+              </i>
             </li>
             <li>
-              <a href="/sitemap">Sitemap</a>
+              <i class="fa fa-chevron-right">
+                <a href="#">Sitemap</a>
+              </i>
             </li>
             <li>
-              <a href="/help">Help</a>
+              <i class="fa fa-chevron-right">
+                <a href="#">Help</a>
+              </i>
             </li>
             <li>
-              <a href="/archief">Archief</a>
+              <i class="fa fa-chevron-right">
+                <a href="#">Archief</a>
+              </i>
             </li>
           </ul>
         </div>
@@ -868,28 +899,45 @@
           <h2>Over deze site</h2>
           <ul>
             <li>
-              <a href="/over-rijksoverheid-nl">Over Rijksoverheid.nl</a>
+              <i class="fa fa-chevron-right">
+                <a href="/over-rijksoverheid-nl">Over Rijksoverheid.nl</a>
+              </i>
             </li>
             <li>
-              <a href="/wetten-en-regelingen">Wetten en regelingen</a>
+              <i class="fa fa-chevron-right">
+                <a href="/wetten-en-regelingen">Wetten en regelingen</a>
+              </i>
             </li>
             <li>
-              <a href="/copyright">Copyright</a>
+              <i class="fa fa-chevron-right">
+                <a href="#">Copyright</a>
+              </i>
             </li>
             <li>
-              <a href="/privacy">Privacy</a>
+              <i class="fa fa-chevron-right">
+                <a href="#">Privacy</a>
+              </i>
+            </li>
+
+            <li>
+              <i class="fa fa-chevron-right">
+                <a href="#">Cookies</a>
+              </i>
             </li>
             <li>
-              <a href="/cookies">Cookies</a>
+              <i class="fa fa-chevron-right">
+                <a href="#d">Toegankelijkheid</a>
+              </i>
             </li>
             <li>
-              <a href="/toegankelijkheid">Toegankelijkheid</a>
+              <i class="fa fa-chevron-right">
+                <a href="#">Open data</a>
+              </i>
             </li>
             <li>
-              <a href="/opendata">Open data</a>
-            </li>
-            <li>
-              <a href="/kwetsbaarheid-melden">Kwetsbaarheid melden</a>
+              <i class="fa fa-chevron-right">
+                <a href="#">Kwetsbaarheid melden</a>
+              </i>
             </li>
           </ul>
         </div>

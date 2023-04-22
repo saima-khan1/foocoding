@@ -1,6 +1,6 @@
 /* eslint-disable */
 
-/* 
+/*
   Call this function to get a JSON string of the data
   (simulates calling a server to retrieve data)
 */

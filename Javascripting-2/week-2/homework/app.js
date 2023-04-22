@@ -44,6 +44,7 @@ const tuesday = [
     duration: 40,
   },
 ];
+
 const tasks = monday.concat(tuesday);
 
 const durations = tasks.map((task) => task.duration / 60);

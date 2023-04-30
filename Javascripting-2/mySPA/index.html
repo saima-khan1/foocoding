@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>My Single Page App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a href="#home">Home</a>
+          </li>
+          <li>
+            <a href="#work">My Work</a>
+          </li>
+          <li>
+            <a href="#info">Personal Info</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="home">
+        <ul class="home-content">
+          <li class="home-item">
+            <img src="saima.png" alt="" srcset="" />
+          </li>
+          <li class="home-item">
+            <h1>SAIMA KHAN</h1>
+            <h3>Full stack web developer - Student</h3>
+            <p>
+              Hello! I’m saima khan. I am passionate about developing web pages
+              & I am undergoing FullStack Web Development training @Foocoding
+              Malmö.
+            </p>
+            <p>
+              This is my personal single page application web developed as part
+              of my project. you can find this web page is developed using pure
+              HTML CSS & Javascripting. Please feel free to browse. if you have
+              any comments or wants to connect to me you can do that via my
+              contact page.
+            </p>
+            <p>Thank you</p>
+          </li>
+        </ul>
+        <!-- <article class="home-img">
+              <img src="saima.png" alt="" srcset="" />
+            </article>
+      
+            <article class="home-article">
+              <h1>SAIMA KHAN</h1>
+              <hr />
+              <h3>Full stack web developer - Student</h3>
+              <p>
+                Hello! I’m saima khan. I am passionate about developing web pages & I
+                am undergoing FullStack Web Development training @Foocoding Malmö.
+              </p>
+              <p>
+                This is my personal single page application web developed as part of
+                my project. you can find this web page is developed using pure HTML
+                CSS & Javascripting. Please feel free to browse. if you have any
+                comments or wants to connect to me you can do that via my contact
+                page.
+              </p>
+              <p>Thank you</p>
+            </article> -->
+      </section>
+      <section id="work">
+        <div class="work-info">
+          <h1>My Work</h1>
+          <p>FInd my work details fetched from GIT</p>
+        </div>
+      </section>
+      <section id="info">
+        <article class="personal-info">
+          <h1>Personal Info</h1>
+          <ul>
+            <li class="list-item">Name:Saima Khan</li>
+            <li class="list-item">DOB:17/02/1992</li>
+            <li class="list-item">Gender:Female</li>
+            <li class="list-item">Email:saimakhan.6979@gmail.com</li>
+          </ul>
+        </article>
+        <article class="professional-info">
+          <div class="professional-info">
+            <h2 class="prof-skills">Professional Skills</h2>
+            <hr />
+            <ul>
+              <li class="list-item">HTML</li>
+              <li class="list-item">CSS</li>
+              <li class="list-item">JAVA SCRIPT</li>
+              <li class="list-item">GIT HUB</li>
+            </ul>
+          </div>
+          <div class="education-info">
+            <h2 class="education-label">Qualification</h2>
+            <hr />
+            <ul>
+              <li class="list-item">
+                <b>Full Stack Web Development</b> From Foo Cafe Malmo
+              </li>
+              <li class="list-item">
+                <b>Bachelor Of Engineering</b> From K.B.N college of Engineering
+              </li>
+              <li class="list-item">
+                <b>High Schooling</b> From st joseph school
+              </li>
+            </ul>
+          </div>
+          <div class="language-info">
+            <h2 class="language-detail">Language</h2>
+            <hr />
+            <ul>
+              <li class="list-item">English</li>
+              <li class="list-item">Urdu</li>
+            </ul>
+          </div>
+        </article>
+      </section>
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>This is the Contact section.</p>
+        <form id="contact-form">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+          <button type="submit">Send</button>
+          <div id="success-message" class="success"></div>
+        </form>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

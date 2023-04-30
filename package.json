@@ -1,0 +1,23 @@
+{
+  "name": "foocafe",
+  "version": "1.0.0",
+  "description": "http://raw.githack.com/saima-khan1/foocoding/main/week2/index.html , \r https://raw.githack.com/saima-khan1/foocoding/main/week3/index.html\r https://raw.githack.com/saima-khan1/foocoding/main/Javascripting-2/week-1/index.html",
+  "main": "index.js",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saima-khan1/foocoding.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saima-khan1/foocoding/issues"
+  },
+  "homepage": "https://github.com/saima-khan1/foocoding#readme"
+}

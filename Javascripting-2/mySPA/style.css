@@ -1,0 +1,374 @@
+body {
+  background-color: #333;
+}
+main {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+}
+/* styling for Home page*/
+#home {
+  background-color: #dfd3bb;
+}
+#work {
+  background-color: #c1d6de;
+}
+#info {
+  background-color: #d8d3ca;
+}
+#contact {
+  background-color: #989e9c;
+}
+
+.home-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style-type: none;
+  justify-content: space-evenly;
+  padding: 0;
+  width: 100%;
+}
+.home-content .home-item {
+  flex-basis: 48%;
+  text-align: center;
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.home-content .home-item img {
+  width: 100%;
+  height: fit-content;
+  object-fit: cover;
+  opacity: 0.8;
+  flex-shrink: inherit;
+}
+
+.home-content .home-item h1 {
+  font-size: 50px;
+  width: 100%;
+  margin: 0 0 0 0;
+  color: #72858c;
+  flex-shrink: inherit;
+}
+.home-content .home-item h3 {
+  color: #72858c;
+  font-weight: bold;
+  width: 100%;
+  font-size: 30px;
+  flex-shrink: inherit;
+  margin: 0;
+}
+.home-content .home-item p {
+  color: #72858c;
+  font-size: 20px;
+  font-style: italic;
+  width: 100%;
+  flex-shrink: inherit;
+}
+@media (max-width: 768px) {
+  .home-content {
+    display: flex;
+    flex-direction: row;
+  }
+  .home-content .home-item:nth-child(1) {
+    flex-basis: 52%;
+  }
+  .home-content .home-item:nth-child(2) {
+    flex-basis: 100%;
+  }
+  .home-content .home-item img {
+    width: 100%;
+    height: fit-content;
+    object-fit: cover;
+    opacity: 0.8;
+  }
+
+  .home-content .home-item h1 {
+    font-size: 30px;
+    width: 100%;
+    margin: 0 0 0 0;
+    color: #72858c;
+    flex-basis: 100%;
+  }
+  .home-content .home-item h3 {
+    color: #72858c;
+    font-weight: bold;
+    width: 100%;
+    font-size: 25px;
+    flex-basis: 100%;
+  }
+  .home-content .home-item p {
+    color: #72858c;
+    font-size: 16px;
+    font-style: italic;
+    width: 100%;
+    flex-basis: 100%;
+  }
+}
+/* styling for my work page */
+
+#work {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+#work .work-info {
+  align-items: center;
+  justify-content: center;
+}
+
+#work div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#work div h2,
+h1 {
+  font-size: 30px;
+  color: #72858c;
+}
+#work div ul {
+  font-size: 20px;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  #work {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  #work div h2,
+  h1 {
+    font-size: 50px;
+    margin: 0;
+  }
+  p {
+    font-size: 30px;
+  }
+  #work div ul {
+    font-size: 30px;
+    align-items: center;
+  }
+}
+
+/* styling for Personal info page*/
+#info {
+  display: flex;
+}
+.personal-info {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.personal-info h1 {
+  font-size: 30px;
+  margin: 0 0 0 0;
+  color: #72858c;
+}
+.personal-info .list-item {
+  font-size: 20px;
+  margin: 0 0 0 0;
+  color: #72858c;
+  font-style: italic;
+}
+.professional-info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.professional-info h2 {
+  font-size: 30px;
+  color: #72858c;
+}
+.professional-info li {
+  font: size 20px;
+  color: #72858c;
+  font-style: italic;
+}
+
+/* CSS for desktop screens */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+}
+nav li {
+  margin: 0;
+  padding: 0;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+section {
+  height: 100vh;
+  justify-content: center;
+  flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style-type: none;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+section:nth-of-type(even) {
+  background-color: #f4f4f4;
+}
+/* CSS for tablet screens */
+@media (max-width: 768px) {
+  nav {
+    height: 50px;
+  }
+  nav ul {
+    flex-direction: row;
+    height: 100%;
+    justify-content: space-around;
+    padding: 0.5rem;
+  }
+  nav li {
+    width: 100%;
+    text-align: center;
+  }
+  nav a {
+    font-size: 1em;
+  }
+  section {
+    font-size: 1.2rem;
+  }
+}
+/* CSS for mobile screens */
+@media (max-width: 576px) {
+  main {
+    margin-top: 40px;
+  }
+  header {
+    height: 40px;
+    align-items: center;
+  }
+  nav {
+    height: 30px;
+  }
+  nav ul {
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 0.5rem;
+  }
+  nav li {
+    width: 33.33%;
+    text-align: center;
+  }
+  nav a {
+    font-size: 0.8em;
+  }
+  section {
+    font-size: 1rem;
+  }
+  /* Style the form fields for mobile screens */
+  form {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  input[type='text'],
+  input[type='email'],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    resize: none;
+  }
+  button[type='submit'] {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+  }
+  .success {
+    color: green;
+    margin-top: 10px;
+  }
+}
+/* Style the form */
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+/* Style the form fields */
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1.5;
+}
+input[type='text'],
+input[type='email'],
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 2px solid #ccc;
+  resize: none;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #f8f8f8;
+}
+/* Style the submit button */
+button[type='submit'] {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+}
+/* Style the success message */
+.success {
+  color: green;
+  margin-top: 10px;
+}
